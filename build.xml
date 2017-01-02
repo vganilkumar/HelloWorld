@@ -27,7 +27,7 @@
 		</war>
 	</target>
 	<target name="deploy" depends="war">
-		<copyfile src="dist/HelloWorld.war" dest="${tomcat-home}"/>
+		<copy file="dist/HelloWorld.war" todir="${tomcat-home}"/>
 	</target>
 	
 	<target name="clean">
