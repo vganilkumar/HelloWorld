@@ -1,6 +1,5 @@
 <?xml version="1.0" ?> 
-<project name="AntExample1" default="deploy">
-
+<project name="AntExample1" default="deploy" basedir=".">
 	<path id="compile.classpath">
 		<fileset dir="WebContent/WEB-INF/lib">
 			<include name="*.jar"/>
