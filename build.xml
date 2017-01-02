@@ -10,7 +10,7 @@
 		<mkdir dir="build/classes"/>
 		<mkdir dir="dist" />
 		<property name="tomcat-home" value="D:\ContinousIntegration\apache-tomcat-8.0.39\webapps"/>
-		<property name="src-dir" value="D:\ContinousIntegration\apache-tomcat-8.0.39\webapps"/>
+		<property name="src-dir" value="D:\ContinousIntegration\eclipse\workspace\HelloWorld\src"/>
 	</target>
 	
 	<target name="compile" depends="init" >
